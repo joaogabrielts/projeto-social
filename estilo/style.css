@@ -5,6 +5,7 @@
     margin: 0px;
 }
 
+
 html,  body{
     height: 100vh;
     
@@ -38,7 +39,10 @@ section#telefone{
    
   background-image: url("../imagens/frame-iphone.png");
   background-repeat: no-repeat;
-
+  background-size: cover;
+  background-attachment: fixed;
+  max-width: 2560px;
+  min-width: 200px;
  
 }
 
